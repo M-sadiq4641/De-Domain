@@ -1,0 +1,134 @@
+.text-xs {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.text-sm {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.text-md {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-lg {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.text-xl {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.text-2xl {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.text-3xl {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.text-4xl {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.text-5xl {
+  font-size: 48px;
+}
+
+.text-6xl {
+  font-size: 60px;
+}
+
+.text-7xl {
+  font-size: 72px;
+}
+
+.text-8xl {
+  font-size: 96px;
+}
+
+.text-9xl {
+  font-size: 128px;
+}
+
+/* font weidth */
+
+.font-thin {
+  font-weight: 100;
+}
+.font-extralight {
+  font-weight: 200;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-extrabold {
+  font-weight: 800;
+}
+.font-black {
+  font-weight: 900;
+}
+
+/* font weidght ends here */
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+@font-face {
+  font-family: neueplak;
+  src: url(/public/fonts/NeuePlak-SemiBold.ttf);
+}
+
+h1,
+h2 {
+  font-family: neueplak;
+}
+
+.navbar-h1 {
+  color: #7f8184 !important;
+}
+
+.li-link:hover{
+  color: #ED8B34!important;
+  font-weight: 700;
+}
+
+.login-button{
+  border:2px solid #ED8B34;
+  color: #ED8B34;
+  font-weight: 600;
+}
+
+.sigup-button{
+  background-color: #ED8B34;
+  border:2px solid #ED8B34;
+  font-weight: 600;
+}
+
+.nav-border{
+  border: 1px solid #ED8B34;
+
+  @media (max-width:992px) {
+    width: 200px;
+  }
+}
