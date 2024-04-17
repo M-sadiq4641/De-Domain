@@ -111,7 +111,7 @@
   color: #676767;
 }
 .text-lightgrey{
-  color: #74737394;
+  color: #5e5e5e94;
 }
 
 
@@ -207,3 +207,18 @@ h2 {
 }
 
 /* tokenomics section */
+.tokenomics-wrapper{
+  p{
+    font-size: 20px!important;
+    @media (max-width:576px) {
+      
+      font-size: 12px!important;
+    }
+  }
+}
+
+.tokenomics-h1{
+  @media (max-width:576px) {
+    font-size: 40px;
+  }
+}
