@@ -123,11 +123,13 @@
   border: 2px solid #ED8B34;
 }
 
+
 h1,
 h2 {
   font-family: neueplak;
 }
 
+/* navabr */
 .navbar-h1 {
   color: #7f8184 !important;
 }
@@ -157,7 +159,7 @@ h2 {
   }
 }
 
-/* navbar */
+/* hero */
 
 .hero-h1{
   @media (max-width:1200px) {
@@ -168,4 +170,33 @@ h2 {
     font-size: 35px;
     font-weight: 700;
   }
+}
+
+/* form */
+
+.email-form{
+  width: 500px;
+  height: 60px;
+
+  @media (max-width:576px) {
+    width: 100%;
+  }
+}
+
+.select-form{
+  width: 250px;
+  height: 60px;
+
+   @media (max-width:576px) {
+    width: 100%;
+    margin-block: 1rem;
+  }
+}
+
+.search-button{
+  height: 60px;
+  background-color: #ED8B34!important;
+  border: transparent!important;
+  color: white!important;
+  font-weight: 600!important;
 }
