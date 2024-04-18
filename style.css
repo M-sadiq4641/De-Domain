@@ -99,35 +99,32 @@
   src: url(/public/fonts/NeuePlak-SemiBold.ttf);
 }
 
-.text-yellow{
-  color: #ED8B34;
+.text-yellow {
+  color: #ed8b34;
 }
 
-.text-white{
+.text-white {
   color: white;
 }
 
-.text-grey{
+.text-grey {
   color: #676767;
 }
-.text-lightgrey{
+.text-lightgrey {
   color: #5e5e5e94;
 }
 
-
-
-.bg-yellow{
-  background-color: #ED8B34;
+.bg-yellow {
+  background-color: #ed8b34;
 }
- 
-.border-transparent{
+
+.border-transparent {
   border: 2px solid transparent;
 }
 
-.border-yellow{
-  border: 2px solid #ED8B34;
+.border-yellow {
+  border: 2px solid #ed8b34;
 }
-
 
 h1,
 h2 {
@@ -139,39 +136,46 @@ h2 {
   color: #7f8184 !important;
 }
 
-.li-link:hover{
-  color: #ED8B34!important;
-  font-weight: 700;
+.li-link:hover {
+  color: #ed8b34 !important;
 }
 
-.login-button{
-  border:2px solid #ED8B34;
-  color: #ED8B34;
+.li-link {
+  font-weight: 600!important;
+}
+
+
+.login-button {
+  border: 2px solid #ed8b34;
+  color: #ed8b34;
   font-weight: 600;
 }
 
-.sigup-button{
-  background-color: #ED8B34;
-  border:2px solid #ED8B34;
+.sigup-button {
+  background-color: #ed8b34;
+  border: 2px solid #ed8b34;
   font-weight: 600;
 }
 
-.nav-border{
-  border: 1px solid #ED8B34;
+.nav-border {
+  border: 1px solid #ed8b34;
+box-shadow: 0px 4px 10px 0px #00000026;
 
-  @media (max-width:992px) {
+  @media (max-width: 992px) {
     width: 200px;
+    box-shadow: none;
+    border: none;
   }
 }
 
 /* hero */
 
-.hero-h1{
-  @media (max-width:1200px) {
+.hero-h1 {
+  @media (max-width: 1200px) {
     font-size: 50px;
   }
 
-  @media (max-width:576px) {
+  @media (max-width: 576px) {
     font-size: 35px;
     font-weight: 700;
   }
@@ -179,46 +183,45 @@ h2 {
 
 /* form */
 
-.email-form{
+.email-form {
   width: 500px;
   height: 60px;
 
-  @media (max-width:576px) {
+  @media (max-width: 576px) {
     width: 100%;
   }
 }
 
-.select-form{
+.select-form {
   width: 250px;
   height: 60px;
 
-   @media (max-width:576px) {
+  @media (max-width: 576px) {
     width: 100%;
     margin-block: 1rem;
   }
 }
 
-.search-button{
+.search-button {
   height: 60px;
-  background-color: #ED8B34!important;
-  border: transparent!important;
-  color: white!important;
-  font-weight: 600!important;
+  background-color: #ed8b34 !important;
+  border: transparent !important;
+  color: white !important;
+  font-weight: 600 !important;
 }
 
 /* tokenomics section */
-.tokenomics-wrapper{
-  p{
-    font-size: 20px!important;
-    @media (max-width:576px) {
-      
-      font-size: 12px!important;
+.tokenomics-wrapper {
+  p {
+    font-size: 20px !important;
+    @media (max-width: 576px) {
+      font-size: 12px !important;
     }
   }
 }
 
-.tokenomics-h1{
-  @media (max-width:576px) {
+.tokenomics-h1 {
+  @media (max-width: 576px) {
     font-size: 40px;
   }
 }
