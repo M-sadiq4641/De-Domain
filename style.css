@@ -141,9 +141,8 @@ h2 {
 }
 
 .li-link {
-  font-weight: 600!important;
+  font-weight: 600 !important;
 }
-
 
 .login-button {
   border: 2px solid #ed8b34;
@@ -159,7 +158,7 @@ h2 {
 
 .nav-border {
   border: 1px solid #ed8b34;
-box-shadow: 0px 4px 10px 0px #00000026;
+  box-shadow: 0px 4px 10px 0px #00000026;
 
   @media (max-width: 992px) {
     width: 200px;
@@ -226,5 +225,41 @@ box-shadow: 0px 4px 10px 0px #00000026;
   }
 }
 
-
 /* features section */
+
+.tp-button:hover {
+  background-color: #ed8b34 !important;
+  color: white;
+}
+
+.tp-button-two:hover {
+  color: #ed8b34 !important;
+  background-color: transparent !important;
+  border: 2px solid #ed8b34 !important ;
+}
+
+/* accordian section */
+
+.accordion-button::after {
+  background-image: url(/image/minus.png) !important;
+}
+
+.accordion-button.collapsed::after {
+  background-image: url(/image/plus.png) !important;
+}
+
+.accordion-shadow:not(.collapsed) {
+  background-color: transparent !important;
+}
+
+.accordion-item {
+  border: 4px solid rgba(54, 54, 54, 0.027) !important;
+}
+
+.accordion-orange {
+  box-shadow: 0 0.25rem 0.5rem #ed8a345e !important;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: 0 0 0.5rem #ed8a345e !important;
+}
