@@ -96,7 +96,7 @@
 
 @font-face {
   font-family: neueplak;
-  src: url(/public/fonts/NeuePlak-SemiBold.ttf);
+  src: url(/fonts/NeuePlak-SemiBold.ttf);
 }
 
 .text-yellow {
@@ -208,6 +208,9 @@ h2 {
   color: white !important;
   font-weight: 600 !important;
 }
+
+/* hosting */
+
 
 /* tokenomics section */
 .tokenomics-wrapper {
