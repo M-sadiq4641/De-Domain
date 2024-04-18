@@ -211,6 +211,12 @@ h2 {
 
 /* hosting */
 
+.hosting-wrapper{
+  background-image: url(/public/image/hosting-background-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* tokenomics section */
 .tokenomics-wrapper {
