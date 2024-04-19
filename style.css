@@ -133,16 +133,9 @@ h2 {
 }
 
 /* navabr */
-.navbar-h1 {
-  color: #7f8184 !important;
-}
 
 .li-link:hover {
   color: #ed8b34 !important;
-}
-
-.li-link {
-  font-weight: 600 !important;
 }
 
 .login-button {
