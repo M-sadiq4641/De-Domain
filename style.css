@@ -138,17 +138,6 @@ h2 {
   color: #ed8b34 !important;
 }
 
-.login-button {
-  border: 2px solid #ed8b34;
-  color: #ed8b34;
-  font-weight: 600;
-}
-
-.sigup-button {
-  background-color: #ed8b34;
-  border: 2px solid #ed8b34;
-  font-weight: 600;
-}
 
 .nav-border {
   border: 1px solid #ed8b34;
